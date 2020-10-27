@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/rjmunhoz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://about.rjmunhoz.me
+  * I am rjmunhoz (https://keybase.io/rjmunhoz) on keybase.
+  * I have a public key ASBnOgTaRtNZVYJOIHdkFz5Nx_kyJID3hrqMoES_kvRWxQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120daad202db9984dc5ec2f53b57f5f85b3104ae0fb8f72bfff6bff1b0c01e23f2d0a",
+      "host": "keybase.io",
+      "kid": "0120673a04da46d35955824e207764173e4dc7f9322480f786ba8ca044bf92f456c50a",
+      "uid": "79d81f8ac13e6dbb7bf31d2fdde91719",
+      "username": "rjmunhoz"
+    },
+    "merkle_root": {
+      "ctime": 1586126462,
+      "hash": "89d0248e97178f7a602d0cecbf82c31bd6760ffcf65b0a6b3ea2f2201fc09879de307eab0cf0da2ec58215df0a7317bc21d4b2428eda879c7d89c5bd97b6c7e1",
+      "hash_meta": "fd506d398e5ab254adfc44f575d412689a413fc2ad88abd30f14260f0813b0c4",
+      "seqno": 15776473
+    },
+    "service": {
+      "entropy": "FRS+DAHqGmATBI4DzM9yVXWI",
+      "hostname": "about.rjmunhoz.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.3.0"
+  },
+  "ctime": 1586126470,
+  "expire_in": 504576000,
+  "prev": "bbd9720769a1486d47466866c76781842e805bfd0a57e60ee5f2a1753280018f",
+  "seqno": 24,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgZzoE2kbTWVWCTiB3ZBc+Tcf5MiSA94a6jKBEv5L0VsUKp3BheWxvYWTESpcCGMQgu9lyB2mhSG1HRmhmx2eBhC6AW/0KV+YO5fKhdTKAAY/EIJWSCCqjNmZoCpgAuvL3ixyAZ4112IAJnP5t5f8YSfWOAgHCo3NpZ8RAsrAbUf6180eiic8R2aJ9KiemPtKWtZGp30bEOOOoqir2rUcu1mjnOXdW0L39paZbIuXPMTMA79Jox5XVm2AoAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBlXDMjDVULVQhj24wznllqwvsfPOHAKqjRUw55O6B3qo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rjmunhoz
+
+==================================================================

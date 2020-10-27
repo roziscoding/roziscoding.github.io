@@ -1,3 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+:root {
+    --highlightGreen: #65c76a;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header h2 {
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 40px;
+    color: #ffffffaa;
+    font-size: 14px;
+}
+
+header p {
+    text-align: center;
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+
+header p a.links {
+    color: var(--highlightGreen);
+}
+
+#profilePicture, #profilePicture img {
+    text-align: center;
+    margin-bottom: 42px;
+    border-radius: 50%;
+    max-height: 200px;
+}
+
+#profilePicture img {
+    border: solid var(--highlightGreen) 5px;
+}
+
 body {
-  background-color: green;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    display: table;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+section.svgs svg {
+    align-items: center;
+    fill: #ffffff;
+}
+
+section.svgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+section.svgs a {
+    text-align: center;
+    width: 74px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    border-bottom: solid var(--highlightGreen) 3px;
 }
