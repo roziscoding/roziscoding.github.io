@@ -24,11 +24,6 @@ export default defineNuxtConfig({
       ],
     },
   },
-  runtimeConfig: {
-    public: {
-      pushBaseUrl: process.env.PUSH_BASE_URL,
-    },
-  },
   modules: [
     '@nuxtjs/tailwindcss',
     'nuxt-og-image',

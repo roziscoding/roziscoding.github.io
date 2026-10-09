@@ -1,12 +1,9 @@
 <script setup lang="ts">
 import type { Link } from '~/shared/link'
 
-const props = defineProps<{
+defineProps<{
   link: Link
 }>()
-
-const url = useRequestURL()
-const href = computed(() => `${url.origin}/${props.link.id}`)
 
 const language = useState<'pt' | 'en'>('language', () => 'pt')
 </script>
@@ -14,7 +11,7 @@ const language = useState<'pt' | 'en'>('language', () => 'pt')
 <template>
   <article class="h-full">
     <NesCard class="h-full">
-      <a class="h-full hover:no-underline hover:text-[#e5e7eb]" :href="href" target="_blank">
+      <a class="h-full hover:no-underline hover:text-[#e5e7eb]" :href="link.url" target="_blank">
         <RandomColorText>
           <h3>{{ link.title }}</h3>
         </RandomColorText>
